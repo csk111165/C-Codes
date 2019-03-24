@@ -19,8 +19,7 @@ public:
 
      Test(const Test& rhs)
     {
-        if(this != &rhs)
-            *x = *(rhs.x);
+        x = new int(*(rhx.x));
 
     }
 
